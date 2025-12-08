@@ -1,0 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('Images/1514022-most-popular-very-cool-background-wallpaper-2560x1600-windows-xp.jpg');
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}

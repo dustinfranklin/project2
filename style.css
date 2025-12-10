@@ -42,3 +42,11 @@ footer {
   color: rgb(89, 203, 232); 
   text-align: center;
 }
+
+img {
+  min-width: 300px;
+  min-height: 250px;
+  max-height: 250px;
+  max-width: 300px;
+  padding: 10px;
+}

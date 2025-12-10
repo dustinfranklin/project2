@@ -2,7 +2,7 @@ document.getElementById('search-form').addEventListener('submit', async (e) =>
     e.preventDefault();
     const searchTerm = document.getElementById('search-input').value;
     const apiKey = 'YkEft3Sif7PtdqRPwP7OQZQgqoIPisxr'
-    const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=YkEft3Sif7PtdqRPwP7OQZQgqoIPisxr&q=&limit=25&offset=0&rating=pg-13&lang=en&bundle=messaging_non_clips`)
+    const apiURL = `https://api.giphy.com/v1/gifs/search?api_key=YkEft3Sif7PtdqRPwP7OQZQgqoIPisxr&q=&limit=25&offset=0&rating=pg-13&lang=en&bundle=messaging_non_clips`
 
     try {
         const response = await fetch(apiURL);

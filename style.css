@@ -9,3 +9,20 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
 }
+
+#search-form {
+  margin-bottom: 20px;
+}
+
+#search-input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+#gif-results {
+  -ms-flex-item-align: center;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}

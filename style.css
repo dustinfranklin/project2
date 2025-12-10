@@ -12,12 +12,14 @@ body {
 
 #search-form {
   margin-bottom: 20px;
+  align-items: center;
 }
 
 #search-input {
   padding: 10px;
   width: 300px;
   margin-right: 10px;
+  align-items: center;
 }
 
 #gif-results {
@@ -25,4 +27,10 @@ body {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: space-between;
+}
+
+footer {
+  min-height: 10vh;
+  color: rgb(0, 136, 206); 
+  text-align: center;
 }

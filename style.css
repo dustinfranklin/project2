@@ -1,6 +1,7 @@
 * {
-  padding: 0;
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -10,10 +11,20 @@ body {
   grid-template-rows: auto 1fr auto;
 }
 
+h1{
+  color:  rgb(89, 203, 232); 
+}
+
+#gif-results img{
+  display: block;
+  max-width: 300px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 button {
   padding: 10px 15px;
-  background-color: darkgray;
-  color: black;
 }
 
 #search-form {
@@ -28,25 +39,16 @@ button {
   align-items: center;
 }
 
-#gif-results {
-  -ms-flex-item-align: center;
-  flex-wrap: wrap;
-  align-items: baseline;
-  justify-content: space-between;
-  flex-direction: column;
-  gap: 10px;
-}
-
-footer {
-  min-height: 10vh;
-  color: rgb(89, 203, 232); 
-  text-align: center;
-}
-
 img {
   min-width: 300px;
   min-height: 250px;
   max-height: 250px;
   max-width: 300px;
   padding: 10px;
+}
+
+footer {
+  min-height: 10vh;
+  color: rgb(89, 203, 232); 
+  text-align: center;
 }

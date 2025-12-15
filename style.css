@@ -15,6 +15,13 @@ h1{
   color:  rgb(89, 203, 232); 
 }
 
+#gif-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
 #gif-results img{
   display: block;
   max-width: 300px;
